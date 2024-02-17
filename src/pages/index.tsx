@@ -1,8 +1,5 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,8 +10,35 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className="main">
         <h1>Accessible Interactions</h1>
+        <nav>
+          <ul>
+            <li>
+              <Link href="/accname">Accessible Names</Link>
+            </li>
+            <li>
+              <Link href="/addComponents">Adding Components</Link>
+            </li>
+            <li>
+              <Link href="/changePage">Changing Page</Link>
+            </li>
+            <li>
+              <Link href="/disclosures">Disclosures</Link>
+            </li>
+            <li>
+              <Link href="/errorMessages">Error Messages</Link>
+            </li>
+            <li>
+              <Link href="/modals">Modals</Link>
+            </li>
+            <li>
+              <Link href="/removeComponent">
+                Removing or replacing components
+              </Link>
+            </li>
+          </ul>
+        </nav>
       </main>
     </>
   );
