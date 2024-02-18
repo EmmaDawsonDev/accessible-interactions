@@ -113,6 +113,35 @@ a {
   color: inherit;
 }
 
+.accNameContainer {
+  display: flex;
+  gap: 50px;
+  padding: 2rem;
+}
+
+.accNameBtn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.line {
+  height: 10px;
+  width: 50px;
+  background-color: green;
+}
+
+.removeContainer {
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+  background-color: white;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
