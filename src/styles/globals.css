@@ -98,10 +98,15 @@ body {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainNav ul li {
+  list-style: none;
+  margin: 0.5rem;
 }
 
 a {

@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <main className="main">
         <h1>Accessible Interactions</h1>
-        <nav>
+        <nav className="mainNav">
           <ul>
             <li>
               <Link href="/accname">Accessible Names</Link>
